@@ -1,0 +1,2 @@
+# astrobwt-miner
+(formerly astrominer)
