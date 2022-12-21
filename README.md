@@ -27,8 +27,8 @@ For further help:
 
 (bash script files are included with the binary, change your dero address to use it)
 
-Dev fee
+### Dev fee ###
 dev fee is 4.9%
 
-Downloads
-https://github.com/dero-am/astrobwt-miner/releases for all available releases.
+### Downloads ###
+Visit https://github.com/dero-am/astrobwt-miner/releases for all available releases.
