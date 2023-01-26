@@ -1,28 +1,24 @@
-# astrobwt-miner
+# astrominer
 
 Support channel for this: https://discord.gg/nvgHnwD3rZ
 
-astrobwt-miner is an optimized miner for DERO (and any forks that use AstroBWTv3). astrobwt-miner written from scratch in C/C++.
+astrominer is an optimized miner for DERO (and any forks that use AstroBWTv3). astrominer written from scratch in C/C++.
 
-Currently, astrobwt-miner supports both stratum (whalesburg.com) and RPC
+Currently, astrominer supports both stratum (whalesburg.com) and RPC
 
 ### Usage ###
-To mine on hiveos please visit: https://github.com/dero-am/astrobwt-miner/hiveos.md
+To mine on hiveos please visit: https://github.com/dero-am/astrominer/hiveos.md
 
-To mine with stratum:
 
+To mine with wss(mining over RPC to your node):
 ```
-eg: ./astrobwt-miner -w DERO_ADDRESS.WORKER_NAME -r stratum+tls://pool.whalesburg.com:4300 -p stratum
-```
-To mine with getwork(mining over RPC to your node):
-```
-eg: ./astrobwt-miner -w DERO_ADDRESS -r YOUR_NODE:YOUR_PORT -p rpc
+eg: ./astrominer -w DERO_ADDRESS -r YOUR_NODE:YOUR_PORT -p rpc -r1 failover_pool_1 -r2 failover_pool_2
 ```
 
 For further help:
 
 ```
-./astrobwt-miner -h
+./astrominer -h
 ```
 
 (bash script files are included with the binary, change your dero address to use it)
@@ -31,4 +27,4 @@ For further help:
 dev fee is 4.9%
 
 ### Downloads ###
-Visit https://github.com/dero-am/astrobwt-miner/releases for all available releases.
+Visit https://github.com/dero-am/astrominer/releases for all available releases.
