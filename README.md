@@ -4,7 +4,7 @@ Support channel for this: https://discord.gg/nvgHnwD3rZ
 
 astrominer is an optimized miner for DERO (and any forks that use AstroBWTv3). astrominer written from scratch in C/C++.
 
-Currently, astrominer supports both stratum (whalesburg.com) and RPC
+astrominer supports both solo mining and pool mining.
 
 ### Usage ###
 To mine on hiveos please visit: https://github.com/dero-am/astrominer/hiveos.md
@@ -12,7 +12,7 @@ To mine on hiveos please visit: https://github.com/dero-am/astrominer/hiveos.md
 
 To mine with wss(mining over RPC to your node):
 ```
-eg: ./astrominer -w DERO_ADDRESS -r YOUR_NODE:YOUR_PORT -p rpc -r1 failover_pool_1 -r2 failover_pool_2
+eg: ./astrominer -w DERO_ADDRESS -r YOUR_NODE:YOUR_PORT -r1 failover_pool_1 -r2 failover_pool_2
 ```
 Arguments:
 ```
