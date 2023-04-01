@@ -7,7 +7,7 @@ astrominer is an optimized miner for DERO (and any forks that use AstroBWTv3). a
 astrominer supports both solo mining and pool mining.
 
 ### Usage ###
-To mine on hiveos please visit: https://github.com/dero-am/astrominer/hiveos.md
+To mine on hiveos please visit: https://github.com/dero-am/astrobwt-miner/blob/main/hiveos.md
 
 
 To mine with wss(mining over RPC to your node):
