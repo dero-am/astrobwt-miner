@@ -2,7 +2,7 @@ Creating a flight sheet as following steps:
 
 ![Selection_999(210)](https://user-images.githubusercontent.com/121114307/208807860-9705ec8f-89ee-4ba5-9831-7b752007e209.png)
 
-Installation URL is the link to the latest tarball, you can find them here `https://github.com/dero-am/astrobwt-miner/releases`, pick the tar file that has `_hiveos` on the name.
+Installation URL is the link to the latest tarball, you can find them here `https://github.com/dero-am/astrobwt-miner/releases`, copy a link of a suitable tar file for your rigs (eg: `https://github.com/dero-am/astrobwt-miner/releases/download/V1.9.1/astrominer-V1.9.1_generic_amd64_linux.tar.gz`)
 
 ### Mining to your node/ community pools config: ###
 
