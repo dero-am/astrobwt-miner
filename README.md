@@ -23,12 +23,17 @@ Arguments:
 	-w	your wallet (required)
 	-p	pool type. stratum or RPC (optional, default: rpc)
 	-m	mining threads (default: all threads)
+	-i	intensive level (valid values [0,10] (optional, default: 10))
 	-k	kernel number (-1(auto select), 1(intel) or 2(amd and others)
-	-a	cpu affinity: specify cpu IDs to bind to, separated by commas without space, example( -a 0,2,4,6,8,10 ) | the number of cpu IDs must be equal to the number of mining threads | use -1 to disable cpu affinity | (default affinity: 0,1,2,3,...,N) 
-	-show-latency	show the latency between miner and pool (doesn't work with WINDOWS Node) 
+	-a	cpu affinity (linux only): specify cpu IDs to bind to, separated by commas without space, example( -a 0,2,4,6,8,10 ) | the number of cpu IDs must be equal to the number of mining threads | use -1 to disable cpu affinity | (default affinity: 0,1,2,3,...,N) 
+	-show-latency	show the latency between miner and pool (doesn't work with Windows Node) 
 	-log-interval	time between 2 logging lines in second (default: 5 seconds) 
 	-opmem	Performing memory optimization before mining, require ROOT permission (not available on android) 
-	-disable-api	Disable miner API on port 60666, this API is required for hiveOS
+	-disable-api	Disable miner API on port 60666, this API is required for hiveOS 
+	-no-watchdog	Disable astrominer watchdog
+	-log-to-file	Redirect all astrominer log to a file
+	-sock-address	Socks5 ip address with port (eg: 127.0.0.1:8192) (default: null)
+	-sock-auth	Socks5 username and password (eg: username:password). NOTE: this username and password can't contain space and : symbol (default: null)
 ```
 
 For further help:
