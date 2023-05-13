@@ -34,6 +34,7 @@ Arguments:
 	-log-to-file	Redirect all astrominer log to a file
 	-sock-address	Socks5 ip address with port (eg: 127.0.0.1:8192) (default: null)
 	-sock-auth	Socks5 username and password (eg: username:password). NOTE: this username and password can't contain space and : symbol (default: null)
+	-report-realtime-hashrate	 Enable sending realtime hashrate to hansen33 mod node (default: disable)
 ```
 
 For further help:
